@@ -15,6 +15,8 @@
 		BC3620AC1BF320B3002F469C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3620AA1BF320B3002F469C /* LaunchScreen.xib */; };
 		BC3620B81BF320B3002F469C /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3620B71BF320B3002F469C /* GitDemoTests.m */; };
 		BC3620CB1BF330A9002F469C /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3620CA1BF330A9002F469C /* ViewControllerB.m */; };
+
+		BC3620C41BF328B3002F469C /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3620C31BF328B3002F469C /* ViewControllerA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +43,12 @@
 		BC3620B11BF320B3002F469C /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3620B61BF320B3002F469C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC3620B71BF320B3002F469C /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
-		BC3620C91BF330A9002F469C /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
+BC3620C91BF330A9002F469C /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
 		BC3620CA1BF330A9002F469C /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
+
+		BC3620C21BF328B3002F469C /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		BC3620C31BF328B3002F469C /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		BC36209A1BF320B2002F469C /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC3620C11BF32880002F469C /* A */,
 				BC36209F1BF320B2002F469C /* AppDelegate.h */,
 				BC3620A01BF320B2002F469C /* AppDelegate.m */,
 				BC3620A21BF320B2002F469C /* ViewController.h */,
@@ -122,6 +129,15 @@
 				BC3620B61BF320B3002F469C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC3620C11BF32880002F469C /* A */ = {
+			isa = PBXGroup;
+			children = (
+				BC3620C21BF328B3002F469C /* ViewControllerA.h */,
+				BC3620C31BF328B3002F469C /* ViewControllerA.m */,
+			);
+			name = A;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3620C41BF328B3002F469C /* ViewControllerA.m in Sources */,
 				BC3620A41BF320B2002F469C /* ViewController.m in Sources */,
 				BC3620CB1BF330A9002F469C /* ViewControllerB.m in Sources */,
 				BC3620A11BF320B2002F469C /* AppDelegate.m in Sources */,
